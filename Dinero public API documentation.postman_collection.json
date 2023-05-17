@@ -1,0 +1,3219 @@
+{
+	"info": {
+		"_postman_id": "d22349e1-d39a-4eee-9597-e8b3f84b3611",
+		"name": "Dinero public API documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1451825"
+	},
+	"item": [
+		{
+			"name": "accountingyears",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/accountingyears",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accountingyears",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accountingyears"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "accounts",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/accounts/entry",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/entry",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"entry"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/accounts/purchase",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/purchase",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"purchase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/accounts/deposit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/deposit",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"deposit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/accounts/deposit/internal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/deposit/internal",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"deposit",
+								"internal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/accounts/entry",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/entry",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"entry"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/accounts/deposit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/accounts/deposit",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"accounts",
+								"deposit"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "contacts",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/contacts/{contactGuid}/notes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{contactGuid}/notes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{contactGuid}",
+								"notes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{contactGuid}",
+								"notes",
+								"{noteGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{contactGuid}/notes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{contactGuid}/notes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{contactGuid}",
+								"notes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{contactGuid}",
+								"notes",
+								"{noteGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{contactGuid}/notes/{noteGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{contactGuid}",
+								"notes",
+								"{noteGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/contacts/{guid}/restore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/contacts/{guid}/restore",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"contacts",
+								"{guid}",
+								"restore"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "contact-state-of-account",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/state-of-account/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/state-of-account/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"state-of-account",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/state-of-account/{guid}/pdf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/state-of-account/{guid}/pdf",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"state-of-account",
+								"{guid}",
+								"pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/state-of-account/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/state-of-account/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"state-of-account",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "countries",
+			"item": [
+				{
+					"name": "v1/countries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/countries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "entries",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/entries",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/entries",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"entries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/entries/changes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/entries/changes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"entries",
+								"changes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "files",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/files",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/files",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"files"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/files/{fileGuid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/files/{fileGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"files",
+								"{fileGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/files",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/files",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"files"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "invoices",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/invoices",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/fetch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/fetch",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"fetch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/email/pre-reminder/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/email/pre-reminder/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email",
+								"pre-reminder",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/email/pre-reminder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/email/pre-reminder",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email",
+								"pre-reminder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/email/pre-reminder/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/email/pre-reminder/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email",
+								"pre-reminder",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/email/pre-reminder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/email/pre-reminder",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"email",
+								"pre-reminder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/e-invoice",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/e-invoice",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"e-invoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.2/{{organizationId}}/invoices/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.2/{{organizationId}}/invoices/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/payments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/payments",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"payments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/payments/{paymentGuid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/payments/{paymentGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"payments",
+								"{paymentGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{guid}/payments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{guid}/payments",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"payments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/generate-creditnote",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/generate-creditnote",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"generate-creditnote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/templates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/templates",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"templates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{guid}/mailouts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{guid}/mailouts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{guid}",
+								"mailouts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ledgeritems",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/ledgeritems/ledgers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/ledgeritems/ledgers",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"ledgeritems",
+								"ledgers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.2/{{organizationId}}/ledgeritems",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.2/{{organizationId}}/ledgeritems",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.2",
+								"{{organizationId}}",
+								"ledgeritems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/ledgeritems",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/ledgeritems",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"ledgeritems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/ledgeritems/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/ledgeritems/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"ledgeritems",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/ledgeritems/status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/ledgeritems/status",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"ledgeritems",
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/ledgeritems/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/ledgeritems/delete",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"ledgeritems",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "manuelvouchers",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/vouchers/manuel",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/manuel",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"manuel"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/manuel/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/manuel/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"manuel",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/manuel/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/manuel/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"manuel",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/manuel/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/manuel/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"manuel",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/manuel/{guid}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/manuel/{guid}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"manuel",
+								"{guid}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "organizations",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/organization/verification/is-verified",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/organization/verification/is-verified",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"organization",
+								"verification",
+								"is-verified"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/organization/verification",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/organization/verification",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"organization",
+								"verification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/organizations",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/organizations",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"organizations"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "products",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/products/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/products/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"products",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/products/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/products/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"products",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/products/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/products/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"products",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "purchase-credit-note",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/creditnotes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/creditnotes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"creditnotes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/creditnotes/{guid}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"creditnotes",
+								"{guid}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "purchase-voucher-credit-payments",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/purchase-vouchers/{id}/payments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/purchase-vouchers/{id}/payments",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"purchase-vouchers",
+								"{id}",
+								"payments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/purchase-vouchers/{id}/payments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/purchase-vouchers/{id}/payments",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"purchase-vouchers",
+								"{id}",
+								"payments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/purchase-vouchers/{id}/payments/{paymentId}/{timestamp}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/purchase-vouchers/{id}/payments/{paymentId}/{timestamp}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"purchase-vouchers",
+								"{id}",
+								"payments",
+								"{paymentId}",
+								"{timestamp}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "purchase-vouchers",
+			"item": [
+				{
+					"name": "v1.1/{{organizationId}}/vouchers/purchase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.1/{{organizationId}}/vouchers/purchase",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.2/{{organizationId}}/vouchers/purchase",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.2/{{organizationId}}/vouchers/purchase",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.2",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/fetch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/fetch",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"fetch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/similar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/similar",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"similar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/fileguid/{fileGuid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/fileguid/{fileGuid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"fileguid",
+								"{fileGuid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.1/{{organizationId}}/vouchers/purchase/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.1/{{organizationId}}/vouchers/purchase/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/{guid}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/{guid}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/vouchers/purchase/{guid}/generate-creditnote",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vouchers/purchase/{guid}/generate-creditnote",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vouchers",
+								"purchase",
+								"{guid}",
+								"generate-creditnote"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reminders",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/next",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/next",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"next"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/fetch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/fetch",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"fetch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}/e-reminder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/invoices/{voucherGuid}/reminders/{id}/e-reminder",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"{id}",
+								"e-reminder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{voucherGuid}/reminders/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{voucherGuid}/reminders/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/invoices/{voucherGuid}/reminders/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/invoices/{voucherGuid}/reminders/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"invoices",
+								"{voucherGuid}",
+								"reminders",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reports",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/{accountingYear}/reports/saldo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/{accountingYear}/reports/saldo",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"{accountingYear}",
+								"reports",
+								"saldo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/{accountingYear}/reports/result",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/{accountingYear}/reports/result",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"{accountingYear}",
+								"reports",
+								"result"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/{accountingYear}/reports/primo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/{accountingYear}/reports/primo",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"{accountingYear}",
+								"reports",
+								"primo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/{accountingYear}/reports/balance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/{accountingYear}/reports/balance",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"{accountingYear}",
+								"reports",
+								"balance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sales",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/sales",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/settings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/settings",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sales-credit-notes",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.2/{{organizationId}}/sales/creditnotes/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.2/{{organizationId}}/sales/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.2",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/book",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/book",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/fetch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/fetch",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"fetch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/pdf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/pdf",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/e-creditNote",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/e-creditNote",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"e-creditNote"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sales/creditnotes/{guid}/mailouts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sales/creditnotes/{guid}/mailouts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sales",
+								"creditnotes",
+								"{guid}",
+								"mailouts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sms",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/sms/validate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sms/validate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sms",
+								"validate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/sms/{voucherGuid}/send-sms",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/sms/{voucherGuid}/send-sms",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"sms",
+								"{voucherGuid}",
+								"send-sms"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tradeoffers",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/tradeoffers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/fetch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/fetch",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"fetch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/tradeoffers/{guid}/email/template",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/tradeoffers/{guid}/email/template",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"email",
+								"template"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v2/{{organizationId}}/tradeoffers/{guid}/email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v2/{{organizationId}}/tradeoffers/{guid}/email",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v2",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}/generate-invoice",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}/generate-invoice",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"generate-invoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1.2/{{organizationId}}/tradeoffers/{guid}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1.2/{{organizationId}}/tradeoffers/{guid}",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1.2",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/tradeoffers/{guid}/mailouts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/tradeoffers/{guid}/mailouts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"tradeoffers",
+								"{guid}",
+								"mailouts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "vatTypes",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/vatTypes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/vatTypes",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"vatTypes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "settings",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/settings/access",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/settings/access",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"settings",
+								"access"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "integrations",
+			"item": [
+				{
+					"name": "v1/{{organizationId}}/integrations",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/mobilepay-invoice/start",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/mobilepay-invoice/start",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"mobilepay-invoice",
+								"start"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/mobilepay-invoice/activate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/mobilepay-invoice/activate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"mobilepay-invoice",
+								"activate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/mobilepay-invoice/deactivate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/mobilepay-invoice/deactivate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"mobilepay-invoice",
+								"deactivate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/pensopay-invoice/start",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/pensopay-invoice/start",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"pensopay-invoice",
+								"start"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/pensopay-invoice/reactivate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/pensopay-invoice/reactivate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"pensopay-invoice",
+								"reactivate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "v1/{{organizationId}}/integrations/pensopay-invoice/deactivate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/v1/{{organizationId}}/integrations/pensopay-invoice/deactivate",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"v1",
+								"{{organizationId}}",
+								"integrations",
+								"pensopay-invoice",
+								"deactivate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "authUrl",
+				"value": "{{auth_url}}",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{access_token_url}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{client_id}}",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "{{client_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "redirect_uri",
+				"value": "https://oauth.pstmn.io/v1/callback",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "{{scopes}}",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "Dinero token",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "body",
+				"type": "string"
+			},
+			{
+				"key": "challengeAlgorithm",
+				"value": "S256",
+				"type": "string"
+			},
+			{
+				"key": "useBrowser",
+				"value": true,
+				"type": "boolean"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://api.dinero.dk",
+			"type": "string"
+		},
+		{
+			"key": "client_id",
+			"value": "isv_vksplan_dinero",
+			"type": "string"
+		},
+		{
+			"key": "client_secret",
+			"value": "dcZlfuwfbjgbxpKU1CS2Ncrp82bXaPhVhpjvawzHAhP1dkPn0sKFtSPPp6Gsy9X0",
+			"type": "string"
+		},
+		{
+			"key": "auth_url",
+			"value": "https://connect.visma.com/connect/authorize",
+			"type": "string"
+		},
+		{
+			"key": "access_token_url",
+			"value": "https://connect.visma.com/connect/token",
+			"type": "string"
+		},
+		{
+			"key": "scopes",
+			"value": "dineropublicapi:read dineropublicapi:write offline_access",
+			"type": "string"
+		},
+		{
+			"key": "organizationId",
+			"value": "437068",
+			"type": "string"
+		}
+	]
+}
